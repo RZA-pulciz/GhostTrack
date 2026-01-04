@@ -1,3 +1,0 @@
-BackTrack_Ghost Fusion Environment
-Base: Ghost_Ops_Unit + distro-like skeleton
-Questo NON è un OS completo, ma un ambiente operativo ibrido.

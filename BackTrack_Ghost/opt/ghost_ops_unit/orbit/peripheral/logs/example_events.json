@@ -1,8 +1,0 @@
-{
-  "type": "wifi_scan",
-  "timestamp": "1767290921",
-  "networks": [
-    {"ssid": "FreeWiFi", "rssi": -60},
-    {"ssid": "Biblioteca", "rssi": -72}
-  ]
-}

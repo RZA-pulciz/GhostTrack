@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-echo "[NOTIFY] Avvio Ghost_OS"
