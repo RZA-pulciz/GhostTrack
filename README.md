@@ -6,154 +6,229 @@ Un framework rituale, modulare e operativo.**
 [![Build](https://img.shields.io/badge/Build-GhostOps-black)]()
 [![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-blue)]()
 [![Identity](https://img.shields.io/badge/Identity-BackTrack%20Reborn-red)]()
-[![Modules](https://img.shields.io/badge/Modules-Modular-orange)]()
-
----
-
-## 🔥 Cos’è GhostTrack  
-GhostTrack è **la rinascita concettuale di BackTrack**, reinterpretata come un framework modulare, rituale e impersonalmente operativo.
-
-Non è una distro.  
-Non è un OS.  
-È **un ambiente di orchestrazione**, un laboratorio di automazione, un framework di identità tecnica.
-
-GhostTrack fonde:
-
-- **GhostBacktrack_Lab** → l’estetica, la memoria, il simbolismo BackTrack  
-- **Ghost_Ops_Unit** → la struttura operativa, i rituali, la modularità  
-- **Nuova identità GhostTrack** → pulizia, coerenza, visione, futuro  
-
-Il risultato è un sistema che **non emula BackTrack**:  
-lo **evoca**, lo **ritualizza**, lo **riporta in vita** come concetto.
-
----
-
-## 🧩 Architettura  
-GhostTrack è organizzato in moduli autonomi, orchestrati da un nucleo centrale:
-
-GhostTrack/
-├── system/           → binari, rituali, strumenti
-├── modules/          → moduli caricabili dinamicamente
-├── ops/              → operazioni, unità, automazioni
-├── rituals/          → sequenze operative e simboliche
-├── manifest/         → identità, manifesto, costellazioni
-├── core/             → nucleo GhostTrack
-├── var/              → stato, cache, tracce
-├── docs/             → documentazione
-└── ghost_*.sh        → script principali
 
 
-Ogni componente è:
+📄 Whitepaper / README – Civil Resilience OS
+Titolo:
 
-- **modulare**  
-- **autoloadabile**  
-- **impersonale**  
-- **rituale**  
-- **coerente con l’identità GhostTrack**
+Civil Resilience GhostTrack v2 – Piattaforma Operativa per Sicurezza, Continuità e Connettività in Scenari Critici
+1. Introduzione
 
----
+Civil Resilience OS è una distribuzione Linux progettata per garantire sicurezza, autonomia e continuità operativa in contesti civili, professionali e di emergenza.
+L’obiettivo è fornire un ambiente affidabile che rimanga funzionale anche in condizioni di:
 
-## 🧬 Filosofia  
-GhostTrack segue tre principi:
+    rete instabile o assente
 
-### **1. Impersonalità**
-Il sistema non è “tu”.  
-Non è “io”.  
-È **il processo**.
+    blackout prolungati
 
-### **2. Modularità**
-Ogni parte può essere sostituita, estesa, ricombinata.
+    crisi infrastrutturali
 
-### **3. Ritualità**
-Le operazioni non sono comandi:  
-sono **rituali tecnici**, sequenze che definiscono identità.
+    emergenze civili o naturali
 
----
+    necessità di comunicazioni sicure
 
-## 🐺 BackTrack Reborn  
-GhostTrack non copia BackTrack.  
-Non lo imita.  
-Non lo ricostruisce.
+La distro integra strumenti 100% legali, orientati alla difesa, alla resilienza digitale e alla connettività continua, senza includere componenti offensive o potenzialmente illegali.
+2. Filosofia del progetto
 
-GhostTrack **riporta in vita lo spirito**:
+Civil Resilience OS si basa su quattro principi fondamentali:
+2.1 Sicurezza by Design
 
-- l’estetica  
-- la crudezza  
-- la modularità  
-- la filosofia “tool-first”  
-- la struttura da laboratorio  
+Il sistema è costruito con un approccio “secure-by-default”, includendo:
 
-È un **tributo concettuale**, non una replica.
+    cifratura completa del disco
 
----
+    firewall preconfigurato
 
-## 🚀 Installazione (Termux / Linux)
+    sandboxing applicativo
 
-```sh
-git clone https://github.com/RZA-pulciz/GhostTrack
-cd GhostTrack
-chmod +x ghost_*.sh
+    gestione sicura delle credenziali
 
+2.2 Continuità Operativa
 
-🧪 Avvio del framework
-sh
-./ghost_bootstrap.sh
-Oppure:
+La distro è progettata per mantenere la connettività e la funzionalità anche in condizioni avverse, grazie a:
 
-sh
-./ghost_ops_unit.sh
-📜 Manifesto
-Il manifesto GhostTrack definisce:
+    hotspot integrato
 
-identità
+    tethering avanzato
 
-rituali
+    reti mesh locali
 
-struttura
+    VPN resilienti
 
-visione
+    strumenti offline-first
 
-modularità
+2.3 Resilienza Civile
 
-impersonalità
+Il sistema include strumenti utili in scenari di emergenza:
 
-Lo trovi in:
+    mappe offline
 
-Codice
-manifest/00_CONCEPT_MANIFEST.txt
-🛠️ Moduli principali
-ghost_ops_unit
+    comunicazioni locali senza Internet
 
-ghost_orbit
+    sincronizzazione P2P
 
-ghost_pages
+    servizi locali di comunità
 
-ghost_backtrack_fusion
+2.4 Legalità e Trasparenza
 
-ghost_theme_builder
+Tutti i componenti sono open-source e legalmente utilizzabili.
+Non sono inclusi strumenti di hacking offensivo, cracking o intrusioni.
+3. Architettura del Sistema
 
-ghost_survival_setup
+Civil Resilience OS è organizzata in moduli funzionali, ognuno dei quali può essere aggiornato o esteso in modo indipendente.
+4. Modulo: CIV-CONNECT (Always-On Connectivity)
 
-ghost_trace_shield
+Il cuore della distro.
+Progettato per garantire la massima probabilità di connessione legale in ogni situazione.
+4.1 Gestione Wi‑Fi avanzata
 
-Ogni modulo è documentato in docs/.
+    auto-scan reti disponibili
 
-🧱 Roadmap
-[ ] GhostTrack v1.0 Release
+    priorità configurabili (casa → tethering → free Wi‑Fi)
 
-[ ] Documentazione completa
+    riconoscimento automatico captive portal
 
-[ ] GhostTrack Site (static build)
+4.2 Hotspot personale
 
-[ ] Moduli avanzati GhostOrbit
+    creazione immediata di un access point protetto
 
-[ ] GhostOS Simulation Layer
+    condivisione connessione via Ethernet, Wi‑Fi o modem
 
-🐺 Autore
-Veronica  
-Architetta di sistemi impersonalmente modulari.
-Custode della rinascita BackTrack.
+4.3 Modem e tethering
 
-🛡️ Licenza
-MIT License
+    supporto completo per chiavette 4G/5G
 
+    tethering USB/Wi‑Fi/Bluetooth
+
+    rilevamento automatico smartphone come sorgente rete
+
+4.4 Reti mesh locali
+
+    supporto B.A.T.M.A.N. o equivalenti
+
+    chat locale web
+
+    bacheca messaggi offline
+
+4.5 VPN e connessioni resilienti
+
+    profili OpenVPN e WireGuard
+
+    mosh per sessioni stabili anche con rete intermittente
+
+5. Modulo: SECURE-CORE (Protezione e Privacy)
+5.1 Sicurezza del dispositivo
+
+    cifratura LUKS2
+
+    firewall nftables
+
+    sandbox Firejail
+
+    password manager offline
+
+5.2 Comunicazioni sicure
+
+    Signal Desktop
+
+    Element (Matrix)
+
+    Session (opzionale)
+
+6. Modulo: FORENSICS & MONITOR (Analisi e Diagnostica)
+6.1 Monitoraggio
+
+    OSQuery
+
+    auditd
+
+    strumenti di log avanzati
+
+6.2 Analisi rete
+
+    Wireshark (uso legale)
+
+    tcpdump
+
+    nmap per diagnostica interna
+
+7. Modulo: CIV-TOOLS (Strumenti di Sopravvivenza Digitale)
+7.1 Mappe offline
+
+    OpenStreetMap offline
+
+    Marble / OsmAnd Desktop
+
+7.2 Sincronizzazione e servizi locali
+
+    Syncthing P2P
+
+    server locale per note e file (Nextcloud locale opzionale)
+
+7.3 Modalità offline-first
+
+    email con invio differito
+
+    repository aggiornamenti offline
+
+8. Scenari d’Uso
+Scenario A – Città con rete disponibile
+
+    connessione automatica a reti fidate
+
+    gestione captive portal
+
+    hotspot per condividere la connessione
+
+Scenario B – Rete instabile
+
+    tethering USB
+
+    modem 4G/5G
+
+    VPN resiliente
+
+    mosh per sessioni persistenti
+
+Scenario C – Nessuna Internet
+
+    rete mesh locale
+
+    chat e bacheca offline
+
+    mappe e documenti offline
+
+    sincronizzazione P2P
+
+9. Legalità e Responsabilità
+
+Civil Resilience OS è progettata per:
+
+    uso civile
+
+    protezione personale
+
+    continuità operativa
+
+    comunicazioni sicure
+
+    resilienza in emergenza
+
+Non include strumenti di attacco, cracking o intrusione.
+L’utente è responsabile dell’uso conforme alle leggi del proprio paese.
+10. Roadmap
+
+    v1.0 – Base system + CIV-CONNECT
+
+    v1.1 – Modulo mesh + mappe offline
+
+    v1.2 – Modulo forensics & monitor
+
+    v1.3 – Documentazione offline integrata
+
+    v2.0 – Versione LTS con supporto esteso
+
+11. Conclusione
+
+GhostTrack v2 OS nasce per offrire una piattaforma robusta, sicura e autonoma, capace di funzionare anche quando le infrastrutture tradizionali falliscono.
+È uno strumento pensato per cittadini, operatori, volontari, tecnici e comunità che vogliono essere preparati a scenari complessi senza violare alcuna legge.
